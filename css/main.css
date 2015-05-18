@@ -14,6 +14,12 @@ a {
     margin: 0;
 }
 
+h1 {
+    font-family: 'Kaushan Script', sans-serif;
+    margin: 15px 0;
+    font-size: 2em;
+}
+
 a {
    color: #f1dfdb; 
 }
@@ -31,4 +37,14 @@ nav {
 
 nav a, nav a:visited {
     color: white;
+}
+
+nava a.selected, nav a:hover {
+    color: red;
+}
+
+
+body {
+    background-color: white;
+    color: #999;
 }
