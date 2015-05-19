@@ -18,29 +18,43 @@ h1 {
     font-family: 'Kaushan Script', sans-serif;
     margin: 15px 0;
     font-size: 2em;
+    font-weight: normal;
+    line-height: 2.2em;
 }
+
+/*h2 {*/
+/*    font-family: 'Kaushan Script'; sans-serif;*/
+/*    margin: 15px 0;*/
+    /*font-size: 1.2em;*/
+    /*font-weight: normal;*/
+    /*line-height: 1.2em;*/
+/*}*/
 
 a {
    color: #f1dfdb; 
 }
+
 header {
-    background-color: #f1dfdb;
-    border-color:#a32c42;
+    /*background-color: #f1dfdb;*/
+    background-color: #da7674;
+    /*border-color:#a32c42;*/
+    border-color: #da7674;
 }
 
 h1,h2 {
-    color:#a32c42;
+    color:#590010;
 }
 nav {
     background: #a32c42;
 }
 
 nav a, nav a:visited {
-    color: white;
+    /*color: #2ca38d;*/
+    color: DA7674;
 }
 
-nava a.selected, nav a:hover {
-    color: red;
+nav a.selected, nav a:hover {
+    color: #FCF3F9;         /*    #721F2E;  */
 }
 
 
