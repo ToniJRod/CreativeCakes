@@ -33,6 +33,12 @@ h2 {
     
 }
 
+.displayed {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    }
+
 /*h2 {*/
 /*    font-family: 'Kaushan Script'; sans-serif;*/
 /*    margin: 15px 0;*/
