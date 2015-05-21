@@ -19,14 +19,17 @@ a {
 h1 {
     /*font-family: 'Kaushan Script', sans-serif;*/
     font-family: 'Lora', serif;
-    margin: 15px 0;
-    font-size: 2em;
+    margin: 15px 0 5px 0;
+    font-size: 3em;
     font-weight: normal;
-    line-height: 2.2em;
+    line-height: 2.6;
 }
 
 h2 {
-   font-family: 'Lora', serif; 
+   font-family: 'Lora', serif;
+   font-size: 1.8em;
+   font-weight: normal;
+   
     
 }
 
@@ -54,7 +57,9 @@ h1,h2 {
 }
 nav {
     /*background: #7accc6;*/
-    background: #EDA5A6;
+    /*background: #b7e5e2;*/
+    background:  #EDA5A6;
+    font-family: 'Lora', serif;
 }
 
 nav a, nav a:visited {
@@ -62,15 +67,17 @@ nav a, nav a:visited {
     color: DA7674;
 }
     
-}
 
 nav a.selected, nav a:hover {
-    color: #FCF3F9;         /*    #721F2E;  */
+    color: #FCF3F9; 
+    /*    #721F2E;  */
+    
 }
 
 
 body {
     background-color: #7accc6;
     background-color: #DE777A;
+    /*background-color: #7accc6;*/
     color: #999;
 }
