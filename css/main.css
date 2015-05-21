@@ -29,8 +29,6 @@ h2 {
    font-family: 'Lora', serif;
    font-size: 1.8em;
    font-weight: normal;
-   
-    
 }
 
 .displayed {
@@ -89,4 +87,20 @@ body {
     /*background-color: #7accc6;*/
     background-color: white;
     color: #999;
+}
+
+img {
+    max-width: 100%;
+}
+
+#gallery {
+    margin: 0;    
+    padding: 0;
+    list-style: none;
+    }
+    
+#gallery li {
+    float: left;
+    width: 45%;
+    margin: 2.5%;
 }
