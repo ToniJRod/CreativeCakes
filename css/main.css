@@ -47,7 +47,7 @@ h2 {
 /*}*/
 
 a {
-   color: #f1dfdb; 
+   color: #A1A18B; 
 }
 
 header {
@@ -104,5 +104,6 @@ img {
     width: 95%;
     margin: 2.5%;
     background-color: #f5f5f5;
-    color: #bdc3c7;
+    /*color: #bdc3c7;*/
+    color: #A1A18B;
 }
