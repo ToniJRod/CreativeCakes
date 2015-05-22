@@ -51,7 +51,7 @@ a {
 }
 
 header {
-    float: top;
+    float: left;  /* creates white line on top - fix */
     width: 100%;
     margin: 0 0 30px 0;
     padding: 5px 0 0 0;
@@ -90,7 +90,7 @@ nav ul {
 
 nav li {
     display: inline-block;
-    font-size: 25px;
+    font-size: 22px;
 }
 
 nav a, nav a:visited {
@@ -104,6 +104,10 @@ nav a.selected, nav a:hover {
     /*    #721F2E;  */
 }
 
+nav a {
+    font-weight: 800;
+    padding: 15px 10px;
+}
 
 
 
