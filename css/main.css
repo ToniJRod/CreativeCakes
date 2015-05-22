@@ -90,11 +90,12 @@ nav ul {
 
 nav li {
     display: inline-block;
+    font-size: 25px;
 }
 
 nav a, nav a:visited {
     /*color: #2ca38d;*/
-    color: DA7674;
+    color: #DA7674;
 }
     
 
