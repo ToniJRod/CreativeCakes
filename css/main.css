@@ -66,26 +66,44 @@ h1,h2 {
     background-color: #DE777A;
     color:white;
 }
+
+
+/**********************************
+Navigation
+**********************************/
+
 nav {
     /*background: #7accc6;*/
     /*background: #b7e5e2;*/
+    text-align: center;
+    padding: 10px 0;
+    margin: 20px 0 0;
     background:  #EDA5A6;
     font-family: 'Lora', serif;
-    
+}
+
+nav ul {
+    list-style: none;
+    margin: 10px 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline-block;
 }
 
 nav a, nav a:visited {
     /*color: #2ca38d;*/
     color: DA7674;
-    
 }
     
 
 nav a.selected, nav a:hover {
     color: #FCF3F9; 
     /*    #721F2E;  */
-    
 }
+
+
 
 
 body {
