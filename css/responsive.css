@@ -1,5 +1,14 @@
 @media screen and (min-width: 480px) {
    
+     /*******************
+  TEST
+  ********************/
+   body {background: #D7F0EE;
+       
+   }
+   
+   
+   
    
     /*******************
   TWO COLUMN LAYOUT
@@ -17,7 +26,7 @@
   
 
     /*******************
-    PAGE: PORTFOLIO 
+    PAGE: PORTFOLIO (Gallery page)
     ********************/
 
     #gallery li {
@@ -39,8 +48,6 @@
     
 }
  
-    
-}
 
 @media screen and (min-width: 660px) {
     
