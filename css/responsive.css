@@ -1,18 +1,9 @@
 @media screen and (min-width: 480px) {
    
-     /*******************
-  TEST
-  ********************/
-   body {background: #D7F0EE;
-       
-   }
-   
-   
-   
-   
-    /*******************
-  TWO COLUMN LAYOUT
-  ********************/
+ 
+  /*  *******************/
+  /*TWO COLUMN LAYOUT*/
+  /*********************/
   
   #primary {
     width: 50%;
@@ -25,9 +16,9 @@
   }
   
 
-    /*******************
-    PAGE: PORTFOLIO (Gallery page)
-    ********************/
+    /********************/
+    /*PAGE: PORTFOLIO (Gallery page)*/
+    /*********************/
 
     #gallery li {
       width: 28.3333%; 
@@ -37,9 +28,9 @@
       clear: left;
     }
   
-  /*******************
-  PAGE: ABOUT
-  ********************/
+  /********************/
+  /*PAGE: ABOUT*/
+  /*********************/
   
   .profile-photo {
     float: left;
@@ -50,6 +41,7 @@
  
 
 @media screen and (min-width: 660px) {
-    
-    
+  
+  body {background: white;
+}
 }
