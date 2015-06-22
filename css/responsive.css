@@ -39,8 +39,23 @@
 }
  
 
+
 @media screen and (min-width: 660px) {
   
-  body {background: white;
-}
+/* nav {
+  background: none;
+  float: right;
+  font-size: 1.125em;
+  margin-right: 5%;
+  text-align: right;
+  width: 45%;
+
+ }*/
+
+ header {
+
+  margin-bottom: 60px;
+ }
+
+
 }
