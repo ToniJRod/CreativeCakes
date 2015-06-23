@@ -22,7 +22,11 @@
 }
 
 
+/*My own twist on it*/
+@media screen and (max-width: 480px) {
+#gallery li:nth-child(2n+3) { clear: left; }
 
+}
 
 @media screen and (min-width: 480px) {
    
@@ -52,6 +56,14 @@
   
     
     #gallery li:nth-child(3n+4) { clear: left; }
+/*
+    It makes sense if you think about it... so nth-child(3n +4) will start 
+    at the 4th picture and clear left, then the next one it goes to is the
+     7th picture and clears left, then 10th, then 13th, etc... the +4 tells 
+     it to start at the 4th element, and the 3n tells it to apply these styles 
+     to every third element... so we are starting at the 4th li element and 
+     then continuing with every third li element after that
+     `clear: left` just pushes that li element to the next line*/
   
   /********************/
   /*PAGE: ABOUT*/
@@ -61,23 +73,7 @@
     float: left;
     margin: 0 5% 80px 0;
   }
-    
- /********************/
-  /*PAGE: My test nav*/
-  /*********************/
-
-/* nav {
- 
-  float: right;
-  font-size: 1.125em;
-  margin-right: 5%;
-  text-align: right;
-  width: 45%;
-
- }*/
-
-
-
+  
 }
  
 
