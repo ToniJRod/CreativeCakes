@@ -9,6 +9,20 @@
 
 }
 
+ /*  *******************/
+  /*For cell phones*/
+  /*********************/
+
+@media screen and (max-width: 320px) {
+
+ nav a {
+    padding: 15px 5px;
+}
+
+}
+
+
+
 
 @media screen and (min-width: 480px) {
    
