@@ -15,6 +15,24 @@
     </head>
     
     <body>
+
+      <!-- No right click code -->
+<SCRIPT LANGUAGE="JavaScript">
+var message="Function Disabled!";
+///////////////////////////////////
+function clickIE() {if (document.all) {alert(message);return false;}}
+function clickNS(e) {if 
+(document.layers||(document.getElementById&&!document.all)) {
+if (e.which==2||e.which==3) {alert(message);return false;}}}
+if (document.layers) 
+{document.captureEvents(Event.MOUSEDOWN);document.onmousedown=clickNS;}
+else{document.onmouseup=clickNS;document.oncontextmenu=clickIE;}
+
+document.oncontextmenu=new Function("return false")
+// --> 
+</script>
+<font face="Tahoma"><a target="_blank" href="http://www.javascriptfreecode.com/"><span style="font-size: 8pt; text-decoration: none">JavaScript Free Code</span></a></font>
+<!-- No right click code - end -->
         <header>
             <a href="index.html" id="logo">
                 <a href="index.html">
@@ -79,7 +97,9 @@
                 
                  <li>
                    <a href="veggie_tales.html">
-                       <img src="img/veggie-tales-cake_a.png" alt"Jonah Veggie Tales Cake">
+                     <!--   <img src="img/veggie-tales-cake_a.png" alt"Jonah Veggie Tales Cake"> -->
+
+                     <img src="img/veggie-tales-Jonah-birthday-cake_tmb2.png" alt"Jonah Veggie Tales Cake">
                     </a>
                 </li>
 
@@ -103,7 +123,7 @@
                 
                 <li>
                    <a href="university_of_louisville.html">
-                       <img src="img/university-of-louisville-cake_1.png" alt"University of Louisville Cake">
+                       <img src="img/university-of-louisville-cake_1.jpg" alt"University of Louisville Cake">
                     </a>
                 </li>
                 
