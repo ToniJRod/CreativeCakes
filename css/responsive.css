@@ -9,7 +9,7 @@
 
 }
 
- /*  *******************/
+ /********************/
   /*For cell phones*/
   /*********************/
 
@@ -31,7 +31,7 @@
 @media screen and (min-width: 480px) {
    
  
-  /*  *******************/
+  /*********************/
   /*TWO COLUMN LAYOUT*/
   /*********************/
   
@@ -56,14 +56,6 @@
   
     
     #gallery li:nth-child(3n+4) { clear: left; }
-/*
-    It makes sense if you think about it... so nth-child(3n +4) will start 
-    at the 4th picture and clear left, then the next one it goes to is the
-     7th picture and clears left, then 10th, then 13th, etc... the +4 tells 
-     it to start at the 4th element, and the 3n tells it to apply these styles 
-     to every third element... so we are starting at the 4th li element and 
-     then continuing with every third li element after that
-     `clear: left` just pushes that li element to the next line*/
   
   /********************/
   /*PAGE: ABOUT*/
