@@ -2,7 +2,7 @@
 <html>
     <head>
         <meta charset="utf-8">
-        <title>Creative Cakes of Southern Indiana | Contact</title>
+        <title><?php echo "Creative Cakes of Southern Indiana | Pies" ?></title>
         <link rel="stylesheet" href="css/normalize.css">
         <link rel="stylesheet" href="css/main.css">
         <link rel="stylesheet" href="css/responsive.css">
@@ -22,8 +22,8 @@
                     <li><a href="index.html">Home</a></li>
                     <li><a href="gallery.html">Gallery</a></li>
                     <li><a href="about.html">About</a></li>
-                    <li><a href="contact.html" class="selected">Contact</a></li>
-                    <li><a href="pies.php">Pies</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="pies.php" class="selected">Pies</a></li>
                 </ul>
             </nav>
         </header>
@@ -48,7 +48,7 @@
                 <footer>
                     <a href="http://twitter.com/tonijrod"><img src="img/twitter-wrap.png" alt="Twitter logo" class="social-icon"></a>
                     <a href="http://facebook.com/beezer.rodriguez"><img src="img/facebook-wrap.png" alt="Facebook logo" class="social-icon"></a>
-                    <p>&copy; 2015 Toni Rodriguez.</p>
+                    <p>&copy;<?php echo date('Y'); ?> Toni Rodriguez.</p>
             </footer>
         </div>
     </body>
