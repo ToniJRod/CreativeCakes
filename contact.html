@@ -14,6 +14,7 @@
     </head>
     
     <body>
+        <?php include_once("analyticstracking.php") ?>
         <header>
             <a href="index.html" id="logo">
                 <IMG class="displayed" src="img/WhiteLogo2.gif" alt="Creative Cakes of Southern Indiana" height="147" width="375"></a>
